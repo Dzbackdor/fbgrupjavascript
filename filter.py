@@ -27,7 +27,7 @@ def saring_url(input_file, output_file):
         print(f"Terjadi kesalahan: {str(e)}")
 
 if __name__ == "__main__":
-    base_path = input("Masukkan lokasi folder (contoh: C:\\Users\\LILAI PC\\Desktop\\grup): ")
+    base_path = input("Masukkan lokasi folder (contoh: C:\\Users\\jacok\\Desktop\\grup): ")
     input_file = base_path + "\\grup_aktif.txt"
     output_file = base_path + "\\hasil_filter.txt"
     print(f"Membaca file dari: {input_file}")
